@@ -1,0 +1,7 @@
+Contact: security+report@tide.co
+Expires: Fri Feb 5 12:26:43 2027 IST
+Encryption: https://www.tide.co/.well-known/pgp-key.txt
+Policy: https://www.tide.co/responsible-disclosure/
+Preferred-Languages: en
+Canonical: https://www.tide.co/.well-known/security.txt
+Hiring: https://www.tide.co/careers

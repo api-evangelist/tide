@@ -1,0 +1,15 @@
+generated: '2026-07-21'
+method: searched
+source: https://status.tide.co/
+status_page: https://status.tide.co/
+notes: >-
+  Tide publishes a live system status page (status.tide.co) covering account
+  onboarding, card payments, account visibility, Faster Payments, and
+  international (EUR/USD) payments, with an incident history feed. Tide does not
+  publish a public developer API, so there is no API versioning scheme,
+  deprecation policy, or Sunset/Deprecation header contract to capture. No SLA
+  document was found on the public site.
+versioning: null
+deprecation: null
+sla: null
+deprecated_operations: []

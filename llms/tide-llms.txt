@@ -1,0 +1,31 @@
+# Tide
+
+> Tide is a UK business finance and admin platform ("built by business owners for business owners") serving over 2 million small businesses, sole traders, freelancers, and limited companies. It combines a business current account (e-money account powered by ClearBank, FSCS considerations apply), expense cards, invoicing and payment tools (Tap to Pay, card readers, payment links), MTD-ready accounting and admin, business credit and finance, company formation, and business insurance. Tide is authorised and regulated in relation to its regulated activities by the UK Financial Conduct Authority (FCA). Tide does not currently publish a public developer API or developer portal.
+
+## Company
+- Website: https://www.tide.co/
+- About: https://www.tide.co/about/
+- Pricing: https://www.tide.co/pricing/
+- Blog: https://www.tide.co/blog/
+- Help Centre: https://www.tide.co/help-centre/
+- Contact: https://www.tide.co/contact/
+- Careers: https://www.tide.co/careers/
+
+## Accounts
+- Sign up / open an account: https://web.tide.co/sign-up/
+- Login: https://web.tide.co/login
+
+## Legal
+- Terms and Conditions: https://www.tide.co/terms/
+- Privacy Policy: https://www.tide.co/terms/privacy/
+- Cookie Policy: https://www.tide.co/terms/cookies/
+
+## Trust & Security
+- System status: https://status.tide.co/
+- Responsible disclosure policy: https://www.tide.co/responsible-disclosure/
+- security.txt: https://www.tide.co/.well-known/security.txt
+- Security contact: security+report@tide.co
+
+## Notes
+- No public OpenAPI, API reference, SDKs, MCP server, or developer documentation was found (developer.tide.co does not resolve; /developers/ returns 404).
+- "Open Banking" is offered as a consumer/product feature, not as a published developer API program.

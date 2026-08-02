@@ -1,8 +1,29 @@
 aid: tide
+accessModel:
+  pricing: unknown
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Unknown
+  confidence: low
+  source: []
+  generated: '2026-07-22'
+  method: derived
+image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/tide.png
 name: Tide
-description: 'Tide is a company surfaced as a portfolio company of anthemis, creandum, speedinvest and
-  added to the API Evangelist network as a stub for enrichment. Sector: fintech. This profile is a lead
-  awaiting the enrichment pipeline.'
+description: >-
+  Tide is a UK business finance and administration platform ("built by business
+  owners for business owners") serving over two million small businesses, sole
+  traders, freelancers, and limited companies. It combines a business current
+  account (an e-money account powered by ClearBank), expense cards, invoicing and
+  payment tools (Tap to Pay, card readers, QR codes, payment links), MTD-ready
+  accounting and admin, business credit and finance (loans, asset finance,
+  invoice finance), company formation, and business insurance. Tide is authorised
+  and regulated in relation to its regulated activities by the UK Financial
+  Conduct Authority. Tide was surfaced as a portfolio company of Anthemis,
+  Creandum, and Speedinvest. It does not currently publish a public developer API
+  or developer portal; "Open Banking" is offered as a consumer product feature.
 url: https://raw.githubusercontent.com/api-evangelist/tide/refs/heads/main/apis.yml
 x-type: company
 x-source: vc-portfolio
@@ -14,10 +35,16 @@ x-tier: stub
 x-tier-reason: portfolio-lead
 specificationVersion: '0.20'
 created: '2026-07-17'
-modified: '2026-07-17'
+modified: '2026-07-21'
 tags:
 - Company
 - Fintech
+- Business Banking
+- Payments
+- SME
+- Accounting
+- Invoicing
+- United Kingdom
 apis: []
 maintainers:
 - FN: Kin Lane
@@ -27,3 +54,38 @@ maintainers:
 common:
 - type: Website
   url: https://www.tide.co/
+- type: Pricing
+  url: https://www.tide.co/pricing/
+- type: Blog
+  url: https://www.tide.co/blog/
+- type: Support
+  url: https://www.tide.co/help-centre/
+- type: SignUp
+  url: https://web.tide.co/sign-up/
+- type: Login
+  url: https://web.tide.co/login
+- type: TermsOfService
+  url: https://www.tide.co/terms/
+- type: PrivacyPolicy
+  url: https://www.tide.co/terms/privacy/
+- type: StatusPage
+  url: https://status.tide.co/
+- type: Lifecycle
+  url: lifecycle/tide-lifecycle.yml
+- type: Security
+  url: https://www.tide.co/responsible-disclosure/
+- type: VulnerabilityDisclosure
+  url: security/tide-vulnerability-disclosure.yml
+- type: DomainSecurity
+  url: security/tide-domain-security.yml
+- type: SecurityTxt
+  url: well-known/tide-security.txt
+- type: WellKnown
+  url: well-known/tide-well-known.yml
+- type: LLMsTxt
+  url: llms/tide-llms.txt
+x-enrichment:
+  date: '2026-07-21'
+  status: enriched
+  artifacts_added: 6
+  pass: local-v1
