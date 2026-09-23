@@ -2,13 +2,20 @@ generated: '2026-07-21'
 method: searched
 source: live probes of https://www.tide.co/.well-known/*
 host: https://www.tide.co
-documents:
-- path: /.well-known/security.txt
-  status: 200
-  file: tide-security.txt
-- path: /.well-known/openid-configuration
-  status: 403
-- path: /.well-known/oauth-authorization-server
-  status: 403
-- path: /.well-known/api-catalog
-  status: 403
+hosts:
+- host: https://www.tide.co
+  documents:
+  - path: /.well-known/security.txt
+    status: 200
+    file: tide-security.txt
+  - path: /.well-known/openid-configuration
+    status: 403
+  - path: /.well-known/oauth-authorization-server
+    status: 403
+  - path: /.well-known/api-catalog
+    status: 403
+x-shape-fix:
+  converted: '2026-08-20'
+  from: documents
+  note: Rewritten into hosts[] -> documents[], the only shape well_known_docs() in score.rb reads. A served
+    .well-known surface recorded in any other shape scores as absent.
